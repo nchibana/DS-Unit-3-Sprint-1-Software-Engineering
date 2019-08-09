@@ -264,9 +264,22 @@ career here, you'll have to answer the following:
 - What, in your opinion, is an important part of code reviews? That is, what is
   something you pay attention to when you review code, and that you appreciate
   when others do the same for your code?
+  
+  I appreciate when those who write code also include extensive comments in their
+  code to make it more readable and easy to understand and follow. The most 
+  important part of a code review is to make sure that the code is readable,
+  replicable as is and can be understood by all those who will work on it 
+  in the future, without the original coder present.
+  
 - We have an awful lot of computers here, and it gets pretty confusing with
   slightly different things running on all of them. How could containers help us
   improve this situation?
+  
+  Containers could help us improve this situation by allowing us to deply apps
+  within any OS of our choosing, so we are not limited to our own. We can deploy
+  it in a minimal environment, with just the dependencies we need so we can ensure
+  our apps will run in any environment besides our own. We can also choose any
+  OS we want, as there are so many options out there.
 
 Answer both of these questions (baseline ~5 sentences) here in text.
 
