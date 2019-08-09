@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 def contingency(df, feature1, feature2):
   contingency_table = pd.crosstab(
