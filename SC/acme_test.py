@@ -12,7 +12,7 @@ class AcmeProductTests(unittest.TestCase):
 
     def test_default_product_weight(self):
         prod2 = Product('Test Product No 2')
-        self.assertEqual(prod.weight, 20)
+        self.assertEqual(prod2.weight, 20)
 
     def test_methods(self):
         prod3 = Product('Test Product No 3', price=int(20), weight=int(30), 
