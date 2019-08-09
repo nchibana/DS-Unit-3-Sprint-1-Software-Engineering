@@ -25,7 +25,7 @@ class AcmeReportTests(unittest.TestCase):
         self.assertEqual(len(generate_products(num_products=30)), 30)
 
     def test_legal_names(self):
-        self.assertIn(any('ADJECTIVES') + any('NOUNS'), generate_products(num_products=30)))
+        self.assertIn(any('ADJECTIVES') + any('NOUNS'), generate_products(num_products=30))
 
 if __name__ == '__main__':
     unittest.main()
