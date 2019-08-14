@@ -28,3 +28,8 @@ def contingency(df, feature1, feature2):
 def null(df):
   print(df.isnull().sum())
   
+ 
+# 1. does the code follow PEP8? Yes, code seems to follow guidelines.
+# 2. are comments adequate, does every function or class have a docstring? Although there are no comments or docstrings, code is organized and neat enough for reader to be able to follow along.
+# 3. are variable names sensible and do they help the reader figure out what's going on? Variable names are well labeled so the reader can make sense of it all.
+# 4. would you use this module? I would certainly use this module.
